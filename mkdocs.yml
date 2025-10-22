@@ -52,7 +52,7 @@ theme:
   font:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
-    code: Cutive Mono
+    code : Bitcount Grid Single
   icon:
     logo: material/memory
   favicon: images/favicon.svg
