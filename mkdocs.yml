@@ -44,6 +44,9 @@ theme:
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     scheme: slate
+    toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
     primary: purple
     accent: purple
   font:
