@@ -51,7 +51,7 @@ theme:
     accent: purple
   font:
     # See available fonts at https://fonts.google.com/
-    text: Be Vietnam
+    text: Bitcount Grid Single
     code : Bitcount Grid Single
   icon:
     logo: material/memory
