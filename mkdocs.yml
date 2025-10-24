@@ -113,6 +113,6 @@ markdown_extensions:
   - pymdownx.tabbed
 
 extra_css:
-  homepage: https://example.com
+  homepage: https://mig-sketch.github.io/lavezzi-mdef/
   - stylesheets/extra.css
   - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
