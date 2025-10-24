@@ -1,3 +1,8 @@
+---
+layout: default
+title: MDEF Diary
+css: /assets/css/custom.css
+---
 
 
 <div style="border: 2px solid #ccc; padding: 20px; border-radius: 12px; background-color: #f9f9f9; max-width: 700px; margin: 20px auto;">
