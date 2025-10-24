@@ -1,7 +1,7 @@
 <style>
 blockquote {
-  background-color: #001f4d;  /* Deep purple di sfondo */
-  border-left: 5px solid #004080; /* Bordo leggermente più chiaro */
+  background-color: #4B0082;  /* Deep Purple di sfondo */
+  border-left: 5px solid #6A0DAD; /* Bordo leggermente più chiaro */
   padding: 15px 20px;
   border-radius: 8px;
   color: #ffffff; /* Testo bianco per contrasto */
@@ -17,5 +17,3 @@ blockquote {
 > Spero che esplorarlo vi aiuti a comprendere meglio il mio processo, le mie scelte e magari anche a ispirarvi.  
 >  
 > **Buona visione e buona lettura!**
-
-
