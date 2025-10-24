@@ -39,6 +39,7 @@ extra:
 # Tema
 theme:
   name: material
+  icon:
   logo: assets/docs/images/images.jpg
   favicon: images/favicon.svg
   palette:
