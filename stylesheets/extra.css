@@ -41,7 +41,7 @@
     font-size: 14px;
 }
 body {
-  background-image: url("images");
+  background-image: url(""C:\Users\franc\Desktop\images.jpg"");
   background-size: cover;       /* l’immagine copre tutto lo schermo */
   background-position: center;  /* centrata */
   background-repeat: no-repeat; /* non si ripete */
