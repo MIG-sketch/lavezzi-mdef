@@ -10,10 +10,10 @@ repo_url: 'https://github.com/fablabbcn/mdef-template'
 
 # Menu di navigazione
 nav:
-  - Home: index.md
-  - About: about.md
-  - "Master Project": master-project.md
-  - Reflections: reflections.md
+  - Home: index
+  - About: about
+  - "Master Project": master-project
+  - Reflections: reflections
 
 # Tema Material
 theme:
