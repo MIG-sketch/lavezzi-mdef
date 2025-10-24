@@ -52,7 +52,7 @@ theme:
     code: Cutive Mono
   icon:
     logo:theme:
-  logo: assets/logo.png
+  logo: assets/1c944150-c625-44d5-a6c4-d5d06a2082f6
   favicon: images/favicon.svg
   features:
     - instant
@@ -113,5 +113,6 @@ markdown_extensions:
   - pymdownx.tabbed
 
 extra_css:
+  homepage: https://example.com
   - stylesheets/extra.css
   - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
