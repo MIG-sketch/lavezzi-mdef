@@ -1,4 +1,4 @@
-# Replace the text below to customize your site
+# Configurazione principale del sito
 site_name: Francesco Mignogna - MDEF & Fab Lab Barcelona
 site_description: Master in Design for Emergent Futures
 site_author: Student Name
@@ -7,28 +7,24 @@ repo_name: 'Name : Github Repo'
 site_url: https://fablabbcn.github.io/mdef-template/
 repo_url: 'https://github.com/fablabbcn/mdef-template'
 
-
+# Navigazione
 nav:
   - Home: index.md
   - About: about/me.md
   - Master project:
       - Initial ideas: project/project.md
-  - Reflections :
-
+  - Reflections:
       - Term 1:
           - Bootcamp: term1/01-Bootcamp.md
           - AoWS: term1/02-Atlas of Weak Signals.md
-
       - Term 2:
           - digi: term1/01-Bootcamp.md
           - studio: term1/01-Bootcamp.md
 
-
-
-
+# Extra
 extra:
+  homepage: https://mig-sketch.github.io/lavezzi-mdef/
   social:
-    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
     - icon: fontawesome/brands/medium
       link: https://medium.com/
     - icon: fontawesome/brands/instagram
@@ -40,37 +36,34 @@ extra:
     - icon: fontawesome/brands/github
       link: "https://github.com/"
 
+# Tema
 theme:
   name: material
+  logo: assets/1c944150-c625-44d5-a6c4-d5d06a2082f6
+  favicon: images/favicon.svg
   palette:
-    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: blue
     accent: purple
   font:
-    # See available fonts at https://fonts.google.com/
     text: Be Vietnam
     code: Cutive Mono
-  icon:
-    logo:theme:
-  logo: assets/1c944150-c625-44d5-a6c4-d5d06a2082f6
-  favicon: images/favicon.svg
   features:
     - instant
     - navigation.expand
     - navigation.indexes
     - navigation.instant
-    # - navigation.prune
-    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
 
+# Plugin
 plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
 
+# Estensioni Markdown
 markdown_extensions:
   - extra
   - smarty
@@ -84,7 +77,6 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-
   - md_in_html
   - admonition
   - codehilite
@@ -112,8 +104,7 @@ markdown_extensions:
   - attr_list
   - pymdownx.tabbed
 
+# CSS extra (incluso il tuo file per lo sfondo)
 extra_css:
-  - hompage : https://mig-sketch.github.io/lavezzi-mdef/
   - stylesheets/extra.css
   - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
-
