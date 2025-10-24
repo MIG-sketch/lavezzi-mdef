@@ -1,14 +1,7 @@
-## Welcome
-I am a Business Administration student with a strong interest in
-combining my economic background with the world of design. I
-believe that creativity is a powerful tool not only for expression
-but also for solving problems and generating innovative ideas.
-My academic background has provided me with a solid
-foundation in economics and strategic thinking, while my
-experiences at CAD and in the Netherlands have enriched and
-broadened my knowledge in the field of design.
-I enjoy experimenting with new tools and technologies
-to explore unconventional solutions and bring ideas to life.
-Curious and open-minded, I’m always looking for new ways to
-connect business logic with creative processes, aiming to
-contribute to projects where functionality meets imagination.
+## Hi there!
+
+Welcome to my MDEF Diary, a personal space where I share my journey, my changes, reflections, and everything I’m learning along the way.
+This diary will be constantly updated: a living space that evolves with me.
+Through these pages, I’ll try to let you step into my mind, to share my vision and the way I see and interpret the world around me.
+I hope that exploring it will help you understand my process, my choices.
+
