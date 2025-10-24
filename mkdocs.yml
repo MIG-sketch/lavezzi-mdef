@@ -1,68 +1,33 @@
-# Replace the text below to customize your site
-site_name: Francesco Mignogna - MDEF & Fab Lab Barcelona
-site_description: Master in Design for Emergent Futures
-site_author: Francesco Mignogna
-copyright: Copyleft 2023 "Student Name" - GNU Free Documentation License
+# Configurazione MkDocs per Francesco Mignogna - MDEF & Fab Lab Barcelona
+
+site_name: "Francesco Mignogna - MDEF & Fab Lab Barcelona"
+site_description: "Master in Design for Emergent Futures"
+site_author: "Francesco Mignogna"
+copyright: 'Copyleft 2023 "Student Name" - GNU Free Documentation License'
 repo_name: 'Name : Github Repo'
 site_url: https://fablabbcn.github.io/mdef-template/
 repo_url: 'https://github.com/fablabbcn/mdef-template'
 
-nav {
-  position: fixed;      /* resta fisso sulla pagina */
-  bottom: 20px;         /* distanza dal fondo */
-  left: 50%;            /* centro orizzontale */
-  transform: translateX(-50%); /* centra perfettamente */
-  background-color: rgba(75, 0, 130, 0.9); /* purple semi-trasparente */
-  padding: 10px 20px;
-  border-radius: 12px;
-  display: flex;
-  gap: 20px;            /* distanza tra i link */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
+# Menu di navigazione
+nav:
+  - Home: index.md
+  - About: about.md
+  - "Master Project": master-project.md
+  - Reflections: reflections.md
 
-nav a {
-  color: #ffffff;       /* colore dei link */
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #ffccff;       /* colore hover leggero */
-}
-
-
-
-
-extra:
-  social:
-    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
-    - icon: fontawesome/brands/medium
-      link: https://medium.com/
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/
-    - icon: fontawesome/brands/linkedin
-      link: "https://www.linkedin.com/in/"
-    - icon: fontawesome/brands/github
-      link: "https://github.com/"
-
+# Tema Material
 theme:
   name: material
   palette:
-    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     scheme: slate
     toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+      icon: material/brightness-4
+      name: Switch to light mode
     primary: purple
     accent: purple
   font:
-    # See available fonts at https://fonts.google.com/
     text: Bitcount Grid Single
-    code : Bitcount Grid Single
+    code: Bitcount Grid Single
   icon:
     logo: material/memory
   favicon: images/favicon.svg
@@ -71,18 +36,18 @@ theme:
     - navigation.expand
     - navigation.indexes
     - navigation.instant
-    # - navigation.prune
-    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
 
+# Plugin
 plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
 
+# Estensioni Markdown
 markdown_extensions:
   - extra
   - smarty
@@ -96,13 +61,7 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-
   - md_in_html
-  - admonition
-  - codehilite
-  - footnotes
-  - toc:
-      permalink: true
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -118,12 +77,26 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: 'docs'
   - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - pymdownx.tilde
   - attr_list
   - pymdownx.tabbed
 
+# Extra social links
+extra:
+  social:
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/
+    - icon: fontawesome/brands/linkedin
+      link: "https://www.linkedin.com/in/"
+    - icon: fontawesome/brands/github
+      link: "https://github.com/"
+
+# Extra CSS per il menu in basso
 extra_css:
   - stylesheets/extra.css
   - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
+
