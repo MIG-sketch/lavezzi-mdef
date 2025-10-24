@@ -1,12 +1,22 @@
 <style>
 blockquote {
-  background-color: #800080;  /* Purple puro */
-  border-left: 5px solid #993399; /* Bordo leggermente più chiaro */
-  padding: 15px 20px;
-  border-radius: 8px;
-  color: #ffffff; /* Testo bianco */
-  font-size: 1.1em;
-  line-height: 1.6;
+  background: linear-gradient(135deg, #800080, #993399); /* Gradient purple */
+  border-left: 5px solid #ffffff; /* Bordo bianco */
+  padding: 25px 30px;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1.4em;
+  line-height: 1.9;
+  max-width: 800px;
+  margin: 30px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: all 0.3s ease; /* Animazione dolce per hover */
+}
+
+blockquote:hover {
+  background: linear-gradient(135deg, #993399, #bb33cc); /* Gradient più chiaro al passaggio */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35); /* Ombra più marcata */
+  transform: translateY(-3px); /* Leggero sollevamento */
 }
 </style>
 
