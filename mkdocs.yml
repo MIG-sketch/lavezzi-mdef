@@ -1,33 +1,55 @@
-# Configurazione MkDocs per Francesco Mignogna - MDEF & Fab Lab Barcelona
-
-site_name: "Francesco Mignogna - MDEF & Fab Lab Barcelona"
-site_description: "Master in Design for Emergent Futures"
-site_author: "Francesco Mignogna"
-copyright: 'Copyleft 2023 "Student Name" - GNU Free Documentation License'
+# Replace the text below to customize your site
+site_name: Francesco Mignogna - MDEF & Fab Lab Barcelona
+site_description: Master in Design for Emergent Futures
+site_author: Student Name
+copyright: Copyleft 2023 "Student Name" - GNU Free Documentation License
 repo_name: 'Name : Github Repo'
 site_url: https://fablabbcn.github.io/mdef-template/
 repo_url: 'https://github.com/fablabbcn/mdef-template'
 
-# Menu di navigazione
-nav:
-  - Home: index
-  - About: about
-  - "Master Project": master-project
-  - Reflections: reflections
 
-# Tema Material
+nav:
+  - Home: index.md
+  - About: about/me.md
+  - Master project:
+      - Initial ideas: project/project.md
+  - Reflections :
+
+      - Term 1:
+          - Bootcamp: term1/01-Bootcamp.md
+          - AoWS: term1/02-Atlas of Weak Signals.md
+
+      - Term 2:
+          - digi: term1/01-Bootcamp.md
+          - studio: term1/01-Bootcamp.md
+
+
+
+
+extra:
+  social:
+    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/
+    - icon: fontawesome/brands/linkedin
+      link: "https://www.linkedin.com/in/"
+    - icon: fontawesome/brands/github
+      link: "https://github.com/"
+
 theme:
   name: material
   palette:
-    scheme: slate
-    toggle:
-      icon: material/brightness-4
-      name: Switch to light mode
-    primary: purple
+    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+    primary: blue
     accent: purple
   font:
-    text: Bitcount Grid Single
-    code: Bitcount Grid Single
+    # See available fonts at https://fonts.google.com/
+    text: Be Vietnam
+    code: Cutive Mono
   icon:
     logo: material/memory
   favicon: images/favicon.svg
@@ -36,18 +58,18 @@ theme:
     - navigation.expand
     - navigation.indexes
     - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
 
-# Plugin
 plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
 
-# Estensioni Markdown
 markdown_extensions:
   - extra
   - smarty
@@ -61,7 +83,13 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+
   - md_in_html
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -77,21 +105,12 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: 'docs'
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tilde
   - attr_list
   - pymdownx.tabbed
 
-# Extra social links
-extra:
-  social:
-    - icon: fontawesome/brands/medium
-      link: https://medium.com/
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/
-    - icon: fontawesome/brands/linkedin
-      link: "https://www.linkedin.com/in/"
-    - icon: fontawesome/brands/github
-      link: "https://github.com/"
-
+extra_css:
+  - stylesheets/extra.css
+  - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
