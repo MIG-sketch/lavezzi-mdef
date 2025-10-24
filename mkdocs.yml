@@ -95,8 +95,3 @@ extra:
     - icon: fontawesome/brands/github
       link: "https://github.com/"
 
-# Extra CSS per il menu in basso
-extra_css:
-  - stylesheets/extra.css
-  - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
-
