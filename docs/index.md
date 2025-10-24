@@ -1,7 +1,7 @@
 <style>
 blockquote {
-  background-color: #4B0082;  /* Deep Purple di sfondo */
-  border-left: 5px solid #6A0DAD; /* Bordo leggermente più chiaro */
+  background-color: #800080;  /* Purple puro di sfondo */
+  border-left: 5px solid #993399; /* Bordo leggermente più chiaro */
   padding: 15px 20px;
   border-radius: 8px;
   color: #ffffff; /* Testo bianco per contrasto */
