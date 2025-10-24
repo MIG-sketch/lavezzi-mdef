@@ -1,8 +1,1 @@
 
-blockquote {
-  background-color: #f0f8ff;   /* deep purple */
-  border-left: 5px solid #1e90ff; /* bordo a sinistra */
-  padding: 15px 20px;
-  border-radius: 8px;          /* angoli arrotondati */
-  color: #333333;              /* white */
-}
