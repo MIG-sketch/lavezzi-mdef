@@ -40,5 +40,13 @@
     font-weight: 300;
     font-size: 14px;
 }
+body {
+  background-image: url("images");
+  background-size: cover;       /* l’immagine copre tutto lo schermo */
+  background-position: center;  /* centrata */
+  background-repeat: no-repeat; /* non si ripete */
+  height: 100vh;                /* occupa tutta l’altezza */
+  margin: 0;                    /* rimuove margini di default */
+}
 
  
