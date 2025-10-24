@@ -6,3 +6,4 @@ Through these pages, I’ll try to let you step into my mind, to share my vision
 I hope that exploring it will help you understand my process, my choices.
 
 # ENJOY #
+<link rel="stylesheet" href="stylesheets/extra.css">
