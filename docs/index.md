@@ -1,6 +1,6 @@
 <style>
 blockquote {
-  background-color: #001f4d;  /* Deep Blue di sfondo */
+  background-color: #001f4d;  /* Deep purple di sfondo */
   border-left: 5px solid #004080; /* Bordo leggermente più chiaro */
   padding: 15px 20px;
   border-radius: 8px;
@@ -17,8 +17,5 @@ blockquote {
 > Spero che esplorarlo vi aiuti a comprendere meglio il mio processo, le mie scelte e magari anche a ispirarvi.  
 >  
 > **Buona visione e buona lettura!**
-
-> **Ciao!**  
-> Benvenut* nel mio **MDEF Diary**, uno spazio personale dove racconto il mio percorso, i cambiamenti, le riflessioni...
 
 
