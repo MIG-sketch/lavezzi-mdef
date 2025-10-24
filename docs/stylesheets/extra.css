@@ -1,52 +1,55 @@
-:root>* {
-
+:root > * {
     --md-footer-bg-color: white;
     --md-footer-fg-color: rgb(32, 32, 32);
     --md-footer-bg-color--dark: white;
-    --md-footer-fg-color--lighter:  rgb(32, 32, 32);
-    --md-footer-fg-color--light:  rgb(32, 32, 32);
+    --md-footer-fg-color--lighter: rgb(32, 32, 32);
+    --md-footer-fg-color--light: rgb(32, 32, 32);
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
     --mdc-typography-font-family: 'Be Vietnam', sans-serif;
     --md-typeset-a-color: rgb(12, 240, 190);
-
 }
 
-
+/* Nasconde la scrollbar */
 .hide-scroll-bar {
     -ms-overflow-style: none;
     scrollbar-width: none;
-  }
-  .hide-scroll-bar::-webkit-scrollbar {
+}
+.hide-scroll-bar::-webkit-scrollbar {
     display: none;
-  }
+}
 
-  .md-typeset .md-button--primary {
+/* Bottone primario */
+.md-typeset .md-button--primary {
     border-width: 1px;
     border-color: rgb(219, 219, 219);
     border-radius: 4px;
-  }
-
-.cardContent {
-  padding: 16px;
-  font-size: 16px;
-  color: rgb(32, 32, 32);
 }
 
+/* Contenuto delle card */
+.cardContent {
+    padding: 16px;
+    font-size: 16px;
+    color: rgb(32, 32, 32);
+}
+
+/* Titoli h2 */
 .md-typeset h2 {
     font-weight: 500;
 }
 
+/* Body2 */
 .mdc-typography--body2 {
     font-weight: 300;
     font-size: 14px;
 }
-body {
-  background-image: url(""C:\Users\franc\Desktop\images.jpg"");
-  background-size: cover;       /* l’immagine copre tutto lo schermo */
-  background-position: center;  /* centrata */
-  background-repeat: no-repeat; /* non si ripete */
-  height: 100vh;                /* occupa tutta l’altezza */
-  margin: 0;                    /* rimuove margini di default */
-}
 
- 
+/* ----------------- SFONDO ----------------- */
+body {
+    background-image: url("../../images/images.jpg"); /* <-- percorso corretto */
+    background-size: cover;       /* l’immagine copre tutto lo schermo */
+    background-position: center;  /* centrata */
+    background-repeat: no-repeat; /* non si ripete */
+    background-attachment: fixed; /* sfondo fisso */
+    height: 100vh;                /* occupa tutta l’altezza */
+    margin: 0;                    /* rimuove margini di default */
+}
