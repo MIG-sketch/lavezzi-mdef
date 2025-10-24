@@ -39,7 +39,7 @@ extra:
 # Tema
 theme:
   name: material
-  logo: assets/1c944150-c625-44d5-a6c4-d5d06a2082f6
+  logo: docs/images/images.jpg
   favicon: images/favicon.svg
   palette:
     primary: blue
