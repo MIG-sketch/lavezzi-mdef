@@ -1,11 +1,11 @@
 # Configurazione principale del sito
-site_name: Francesco Mignogna - MDEF & Fab Lab Barcelona
-site_description: Master in Design for Emergent Futures
-site_author: Student Name
-copyright: Copyleft 2023 "Student Name" - GNU Free Documentation License
-repo_name: 'Name : Github Repo'
-site_url: https://fablabbcn.github.io/mdef-template/
-repo_url: 'https://github.com/fablabbcn/mdef-template'
+site_name: "Francesco Mignogna - MDEF & Fab Lab Barcelona"
+site_description: "Master in Design for Emergent Futures"
+site_author: "Student Name"
+copyright: "Copyleft 2023 Student Name - GNU Free Documentation License"
+repo_name: "Name : Github Repo"
+site_url: "https://fablabbcn.github.io/mdef-template/"
+repo_url: "https://github.com/fablabbcn/mdef-template"
 
 # Navigazione
 nav:
@@ -23,14 +23,14 @@ nav:
 
 # Extra
 extra:
-  homepage: https://mig-sketch.github.io/lavezzi-mdef/
+  homepage: "https://mig-sketch.github.io/lavezzi-mdef/"
   social:
     - icon: fontawesome/brands/medium
-      link: https://medium.com/
+      link: "https://medium.com/"
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/
+      link: "https://instagram.com/"
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/
+      link: "https://twitter.com/"
     - icon: fontawesome/brands/linkedin
       link: "https://www.linkedin.com/in/"
     - icon: fontawesome/brands/github
@@ -39,15 +39,15 @@ extra:
 # Tema
 theme:
   name: material
-  icon:
-  logo: assets/docs/images/images.jpg
-  favicon: images/favicon.svg
-  palette: slate
-    primary: blue grey
-    accent:
+  logo: "assets/docs/images/images.jpg"
+  favicon: "images/favicon.svg"
+  palette:
+    - scheme: slate
+      primary: "blue-grey"
+      accent: "lime"
   font:
-    text: Be Vietnam
-    code: Cutive Mono
+    text: "Be Vietnam"
+    code: "Cutive Mono"
   features:
     - instant
     - navigation.expand
@@ -97,7 +97,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
-      base_path: 'docs'
+      base_path: "docs"
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -107,5 +107,5 @@ markdown_extensions:
 
 # CSS extra (incluso il tuo file per lo sfondo)
 extra_css:
-  - stylesheets/extra.css
-  - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
+  - "stylesheets/extra.css"
+  - "https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
