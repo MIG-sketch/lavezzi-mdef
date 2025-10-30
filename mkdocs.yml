@@ -43,7 +43,7 @@ theme:
   logo: assets/docs/images/images.jpg
   favicon: images/favicon.svg
   palette:
-    primary: blue
+    primary: orange
     accent: purple
   font:
     text: Be Vietnam
