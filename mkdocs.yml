@@ -43,8 +43,8 @@ theme:
   favicon: "images/favicon.svg"
   palette:
     - scheme: slate
-      primary: "blue-grey"
-      accent:
+      primary: "blue-grey"   # qui cambiato da lime a blue-grey
+      accent: "lime"         # puoi cambiare in base ai dettagli luminosi che vuoi
   font:
     text: "Be Vietnam"
     code: "Cutive Mono"
@@ -105,7 +105,7 @@ markdown_extensions:
   - attr_list
   - pymdownx.tabbed
 
-# CSS extra (incluso il tuo file per lo sfondo)
+# CSS extra
 extra_css:
   - "stylesheets/extra.css"
   - "https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
