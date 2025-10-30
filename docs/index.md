@@ -8,6 +8,6 @@ This diary will be constantly updated:a living space that evolves with me.
 Through these pages, I’ll try to let you step into my mind, to share my vision and the way I see and interpret the world around me.
 I hope that exploring it will help you understand my process, my choices.
 
-# ENJOY #
+# ENJOY 
 
 ![images](https://github.com/user-attachments/assets/1c944150-c625-44d5-a6c4-d5d06a2082f6)
