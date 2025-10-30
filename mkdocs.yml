@@ -44,7 +44,7 @@ theme:
   favicon: images/favicon.svg
   palette: slate
     primary: blue grey
-    accent: purple
+    accent: indigo
   font:
     text: Be Vietnam
     code: Cutive Mono
