@@ -1,12 +1,12 @@
 :root > * {
-    --md-footer-bg-color: white;
-    --md-footer-fg-color: rgb(32, 32, 32);
-    --md-footer-bg-color--dark: white;
-    --md-footer-fg-color--lighter: rgb(32, 32, 32);
-    --md-footer-fg-color--light: rgb(32, 32, 32);
+    --md-footer-bg-color: #607d8b; /* blue-grey footer */
+    --md-footer-fg-color: #ffffff; /* testo bianco footer */
+    --md-footer-bg-color--dark: #607d8b;
+    --md-footer-fg-color--lighter: #ffffff;
+    --md-footer-fg-color--light: #ffffff;
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
     --mdc-typography-font-family: 'Be Vietnam', sans-serif;
-    --md-typeset-a-color: rgb(12, 240, 190);
+    --md-typeset-a-color: #00ffe0; /* colore link personalizzato */
 }
 
 /* Nasconde la scrollbar */
@@ -23,32 +23,40 @@
     border-width: 1px;
     border-color: rgb(219, 219, 219);
     border-radius: 4px;
+    color: #ffffff; /* testo bottone */
+    background-color: #455a64; /* blue-grey scuro bottone */
 }
 
 /* Contenuto delle card */
 .cardContent {
     padding: 16px;
     font-size: 16px;
-    color: rgb(32, 32, 32);
+    color: #ffffff; /* testo bianco nelle card */
+    background-color: #607d8b; /* sfondo card blue-grey */
+    border-radius: 6px;
 }
 
 /* Titoli h2 */
 .md-typeset h2 {
     font-weight: 500;
+    color: #ffffff; /* colore titoli */
 }
 
 /* Body2 */
 .mdc-typography--body2 {
     font-weight: 300;
     font-size: 14px;
-}
-body {
-  background-color: #607d8b; /* blue-grey */
-  color: #ffffff; /* testo bianco per contrasto */
+    color: #ffffff;
 }
 
+/* Sfondo principale della pagina */
+.md-main, .md-content {
+    background-color: #607d8b !important; /* blue-grey */
+    color: #ffffff !important; /* testo bianco */
+}
 
-
-
-
-
+/* Footer */
+.md-footer {
+    background-color: #607d8b !important;
+    color: #ffffff !important;
+}
