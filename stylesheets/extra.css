@@ -43,8 +43,10 @@
     font-size: 14px;
 }
 body {
-  background-color: #00FF00;
+  background-color: #607d8b; /* blue-grey */
+  color: #ffffff; /* testo bianco per contrasto */
 }
+
 
 
 
