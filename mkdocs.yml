@@ -20,7 +20,7 @@ nav:
       - term 1:
           - digi: term1/01-design studio 0.md
           - studio: term1/01-Bootcamp.md
-      -  term 2:
+  - Term 2:
           - digi: term1/01-Bootcamp.md
           - studio: term1/01-Bootcamp.md
           
