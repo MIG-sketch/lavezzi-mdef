@@ -9,5 +9,3 @@ I hope that exploring it will help you understand my process, my choices.
 
 ## ENJOY
 
-![images](https://github.com/user-attachments/assets/1c944150-c625-44d5-a6c4-d5d06a2082f6)
-
