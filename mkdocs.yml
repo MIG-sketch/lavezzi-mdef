@@ -1,4 +1,6 @@
-# Configurazione principale del sito
+# ===============================
+# CONFIGURAZIONE PRINCIPALE DEL SITO
+# ===============================
 site_name: "Francesco Mignogna - MDEF & Fab Lab Barcelona"
 site_description: "Master in Design for Emergent Futures"
 site_author: "Student Name"
@@ -7,22 +9,22 @@ repo_name: "Name : Github Repo"
 site_url: "https://fablabbcn.github.io/mdef-template/"
 repo_url: "https://github.com/fablabbcn/mdef-template"
 
-# Navigazione
+# ===============================
+# NAVIGAZIONE
+# ===============================
 nav:
   - Home: index.md
   - About: about/me.md
   - Term 1:
-          - Design studio 0: term1/01-Design studio 0.md
-          - AoWS: term1/02-Atlas of Weak Signals.md
- - Term 2:
+      - Design studio 0: term1/01-Design studio 0.md
+      - AoWS: term1/02-Atlas of Weak Signals.md
+  - Term 2:
       - Design studio 1: term2/01-Design studio 1.md
       - AoWS 2: term2/02-Atlas of Weak Signals.md
 
-
-  
-  
-          
-# Extra
+# ===============================
+# EXTRA
+# ===============================
 extra:
   homepage: "https://mig-sketch.github.io/lavezzi-mdef/"
   social:
@@ -37,15 +39,17 @@ extra:
     - icon: fontawesome/brands/github
       link: "https://github.com/"
 
-# Tema
+# ===============================
+# TEMA
+# ===============================
 theme:
   name: material
   logo: "assets/docs/images/images.jpg"
   favicon: "images/favicon.svg"
   palette:
     - scheme: slate
-      primary: "blue-grey"   # qui cambiato da lime a blue-grey
-      accent: "lime"         # puoi cambiare in base ai dettagli luminosi che vuoi
+      primary: "blue-grey"   # colore principale
+      accent: "lime"         # colore di accento
   font:
     text: "Be Vietnam"
     code: "Cutive Mono"
@@ -59,13 +63,17 @@ theme:
     - navigation.top
     - navigation.tracking
 
-# Plugin
+# ===============================
+# PLUGIN
+# ===============================
 plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
 
-# Estensioni Markdown
+# ===============================
+# ESTENSIONI MARKDOWN
+# ===============================
 markdown_extensions:
   - extra
   - smarty
@@ -80,17 +88,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - md_in_html
-  - admonition
-  - codehilite
   - footnotes
-  - toc:
-      permalink: true
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
-  - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
@@ -99,14 +102,14 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       base_path: "docs"
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - pymdownx.tilde
   - attr_list
   - pymdownx.tabbed
 
-# CSS extra
+# ===============================
+# CSS EXTRA
+# ===============================
 extra_css:
   - "stylesheets/extra.css"
   - "https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+
