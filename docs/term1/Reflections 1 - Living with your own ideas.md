@@ -5,7 +5,14 @@ I turned my thyroid pills into a bracelet, so the act of taking care of myself b
 By wearing what usually stays hidden in a drawer, I turn medication into decoration, treatment into culture.
 It’s a way of reclaiming control, fragility into fashion.
 
-https://github.com/user-attachments/assets/76df3466-fd41-42f9-908b-07fe7cca5b99
+<iframe width="360" height="640"
+    src="https://www.youtube.com/embed/Kqcx9ubvq3g"
+    title="YouTube Short"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
 
 
 The Thyroid Pill Grillz Prosthesis turns a symbol of style and showmanship into something personal and vital.
