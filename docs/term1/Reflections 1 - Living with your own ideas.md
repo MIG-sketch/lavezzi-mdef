@@ -1,4 +1,4 @@
-# Prototypes to “become something else”
+# Prototypes to “become the best version of yourself”
 
 The Thyroid Pill bracelet Prosthesis lets me become my daily cure, a wearable reminder that transforms necessity into expression.
 I turned my thyroid pills into a bracelet, so the act of taking care of myself becomes visible, beautiful, and part of my identity.
