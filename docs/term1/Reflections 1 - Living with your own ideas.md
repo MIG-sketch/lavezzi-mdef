@@ -5,6 +5,10 @@ I turned my thyroid pills into a bracelet, so the act of taking care of myself b
 By wearing what usually stays hidden in a drawer, I turn medication into decoration, treatment into culture.
 It’s a way of reclaiming control, fragility into fashion.
 
+![03627e0d-fa03-4e12-b507-76ec65a41529](https://github.com/user-attachments/assets/eebc2648-a319-4726-a3f3-7c090c3f0ff5)
+![feba2279-a9e2-4e0b-9291-fe49bbf6540f](https://github.com/user-attachments/assets/5779c254-3a02-4f30-b1a1-a2eb6fe242e3)
+![ff33a04c-2434-4be2-805f-702ca01b680d](https://github.com/user-attachments/assets/0fa51b59-ddfd-46c6-bf14-f2cdee71d552)
+
 <iframe width="360" height="640"
     src="https://www.youtube.com/embed/Kqcx9ubvq3g"
     title="YouTube Short"
