@@ -55,20 +55,30 @@ It’s a way to turn a cultural skill into a prosthesis: not just eating, but le
     allowfullscreen>
 </iframe>
 
+
 # Prototypes to “judge and be judged” 
 
 As a detective
 
 12:18 p.m.  — we all go up to the terrace including the subject
+
 12:20 p.m. — The subject is no longer on the terrace; I’ve lost her.
+
 12:25 p.m. — I found her again; she’s petting a little dog.
+
 12:30 p.m. — She’s kicking the little dog.
+
 12:33 p.m. — The dog is dead.
+
 12:40 p.m. — She’s trying to hide the body.
 She threw it into the plastic recycling bin — it should’ve gone in the organic waste, btw.
+
 12:42 p.m. — She’s selling cocaine to a pregnant woman.
+
 12:52 p.m. — She met up with her classmates at a bar, pretending nothing happened, but I know what she did.
+
 12:53 p.m. — She’s sipping a coffee paid for with drug money.
+
 1:00 p.m. — She’s back in class. Just another normal day for Erandi.
 
 <img width="388" height="557" alt="image" src="https://github.com/user-attachments/assets/004d052a-1e41-4f2b-bec5-f482c4de0546" />
