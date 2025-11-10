@@ -71,7 +71,7 @@ As a detective
 12:33 p.m. — The dog is dead.
 
 12:40 p.m. — She’s trying to hide the body.
-She threw it into the plastic recycling bin — it should’ve gone in the organic waste, btw.
+She threw it into the plastic recycling bin, it should’ve gone in the organic waste, btw.
 
 12:42 p.m. — She’s selling cocaine to a pregnant woman.
 
