@@ -46,3 +46,12 @@ It’s a way to turn a cultural skill into a prosthesis: not just eating, but le
 ![7ae47f34-7bb0-4560-be31-db8f9a29b789](https://github.com/user-attachments/assets/caa87b71-7bb1-4b6b-82e9-2046eafca6c2)
 ![618e31ce-4760-412f-b0e1-b19d37f4926a](https://github.com/user-attachments/assets/dbd88e63-f4fa-43e2-812d-3b64d6093b0d)
 ![c45ad3e8-bc4f-4160-98b8-6dc63354a8b3](https://github.com/user-attachments/assets/801dc38f-980d-43df-b532-c1f9ec11d3e8)
+
+<iframe width="360" height="640"
+    src="https://www.youtube.com/embed/Kr1BTdEdyt0"
+    title="YouTube Short"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
