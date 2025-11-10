@@ -55,7 +55,7 @@ It’s a way to turn a cultural skill into a prosthesis: not just eating, but le
     allowfullscreen>
 </iframe>
 
-
+# Prototypes to “judge and be judged” 
 
 As a detective
 
