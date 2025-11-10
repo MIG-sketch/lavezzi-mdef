@@ -37,3 +37,12 @@ With these grillz, I can always carry my cure and style with me.
 </iframe>
 
 # Prototypes to “become something else”
+
+The “Become Italian” Prosthesis lets others become me.
+Many people don’t know how to twirl pasta with a fork, and this prototype makes it possible.
+The fork spins on itself, gathering the spaghetti for the perfect bite, teaching the gesture with precision and style.
+It’s a way to turn a cultural skill into a prosthesis: not just eating, but learning to do it like a true Italian.
+
+![7ae47f34-7bb0-4560-be31-db8f9a29b789](https://github.com/user-attachments/assets/caa87b71-7bb1-4b6b-82e9-2046eafca6c2)
+![618e31ce-4760-412f-b0e1-b19d37f4926a](https://github.com/user-attachments/assets/dbd88e63-f4fa-43e2-812d-3b64d6093b0d)
+![c45ad3e8-bc4f-4160-98b8-6dc63354a8b3](https://github.com/user-attachments/assets/801dc38f-980d-43df-b532-c1f9ec11d3e8)
