@@ -83,5 +83,6 @@ She threw it into the plastic recycling bin, it should’ve gone in the organic 
 
 <img width="388" height="557" alt="image" src="https://github.com/user-attachments/assets/004d052a-1e41-4f2b-bec5-f482c4de0546" />
 
+# Reflection
 
 
