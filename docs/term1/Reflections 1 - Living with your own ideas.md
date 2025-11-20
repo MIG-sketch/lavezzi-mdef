@@ -84,5 +84,18 @@ She threw it into the plastic recycling bin, it should’ve gone in the organic 
 <img width="388" height="557" alt="image" src="https://github.com/user-attachments/assets/004d052a-1e41-4f2b-bec5-f482c4de0546" />
 
 # Reflection
+we participated in three lessons called “Live with Your Own Ideas.”
 
+On the first day, we created prosthetics designed to enhance ourselves, exploring how technology and design can improve our abilities.
+On the second day, we focused on the concept of identity, designing prosthetics that would allow us to become someone else, experimenting with transformation and self-perception.
+On the third day, we acted as detectives and subjects, testing our ability to analyze and interpret human behavior.
+
+During these lessons, we had the opportunity to meet two artists, Manel and Thomas, who have made the motto “live with your own ideas” their way of life. 
+They never let others’ judgments influence them, and listening to their experiences and creative approaches was my favorite part.
+
+The lessons were enjoyable but also very challenging: every day we had to create and present our prosthetics to the group. This pressure pushed us to think quickly, find creative solutions, and share our ideas with others.
+
+Regarding the detective part, my task was to follow Erandi, but I lost sight of her after a few minutes, which led me to imagine a possible version of her day. I immediately imagined the worst and described her as a monster (I still think she might have killed a little dog).
+
+It was this fast-paced environment that made the experience engaging and interesting, teaching us to work quickly without losing originality and to collaborate effectively.
 
