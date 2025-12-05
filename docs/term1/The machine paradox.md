@@ -12,5 +12,12 @@ In conclusion, this experience allowed me to discover a more practical and creat
 
 
 
-https://www.youtube.com/watch?v=Hx6g92oEGNs
+<iframe width="360" height="640" 
+        src="https://www.youtube.com/embed/Hx6g92oEGNs" 
+        title="YouTube Short" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
 
