@@ -11,6 +11,7 @@ The final phase, creating the video, was both fun and very useful: it allowed us
 In conclusion, this experience allowed me to discover a more practical and creative side of working with technology, pushing me out of my comfort zone and helping me learn skills that will certainly be useful in the future.
 
 
+
 https://github.com/user-attachments/assets/ff75ac26-0e42-42f8-97d5-abae02eac3a4
 
 
