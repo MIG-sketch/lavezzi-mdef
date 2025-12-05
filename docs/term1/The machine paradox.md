@@ -12,6 +12,5 @@ In conclusion, this experience allowed me to discover a more practical and creat
 
 
 
-https://github.com/user-attachments/assets/ff75ac26-0e42-42f8-97d5-abae02eac3a4
-
+https://youtu.be/Hx6g92oEGNs
 
