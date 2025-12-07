@@ -21,4 +21,9 @@ In conclusion, this experience allowed me to discover a more practical and creat
 </iframe>
 
 
-[Uploading 4.presentation forensic report.pdf…]()
+https://hackmd.io/eOfm3Md3QBONbI2ZetP0xA?view
+
+https://hackmd.io/@Exu-s2ucRkKy-xkK_meJKQ/S1RBwFnlZg
+
+https://agneseraimondi.github.io/iaacmdef/docs/TECHSYSTEMS.pdf
+
