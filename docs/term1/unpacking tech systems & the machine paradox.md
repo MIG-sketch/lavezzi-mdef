@@ -12,6 +12,7 @@ https://hackmd.io/@Exu-s2ucRkKy-xkK_meJKQ/S1RBwFnlZg
 
 
 
+
 # THE MACHINE PARADOX - SECOND WEEK
 
 During the second week, our task was to create, using the functional devices, a machine whose purpose was useless.
