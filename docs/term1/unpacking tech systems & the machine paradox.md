@@ -16,6 +16,9 @@ https://hackmd.io/@Exu-s2ucRkKy-xkK_meJKQ/S1RBwFnlZg
 
 During the second week, our task was to create, using the functional devices, a machine whose purpose was useless.
 
+PRESENTATION [TECHSYSTEMS.pdf](https://github.com/user-attachments/files/24062607/TECHSYSTEMS.pdf)
+
+
 <iframe width="360" height="640" 
         src="https://www.youtube.com/embed/Hx6g92oEGNs" 
         title="YouTube Short" 
