@@ -1,5 +1,8 @@
 
-# UNPACKING TECH SYSTEMS
+# UNPACKING TECH SYSTEMS - FIRST WEEK
+
+During the first week, we selected some electronic devices to dismantle with the idea of giving them a new life. We chose an HP LED monitor and an old computer case. Once opened, we carefully began to take apart each component, closely examining parts that we usually take for granted.
+After the disassembly phase, we checked each internal element one by one to determine which were still functioning and which were no longer usable.
 
 FORENSIC REPORT
 https://hackmd.io/eOfm3Md3QBONbI2ZetP0xA?view
@@ -9,8 +12,9 @@ https://hackmd.io/@Exu-s2ucRkKy-xkK_meJKQ/S1RBwFnlZg
 
 
 
-# THE MACHINE PARADOX
+# THE MACHINE PARADOX - SECOND WEEK
 
+During the second week, our task was to create, using the functional devices, a machine whose purpose was useless.
 
 <iframe width="360" height="640" 
         src="https://www.youtube.com/embed/Hx6g92oEGNs" 
