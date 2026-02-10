@@ -9,6 +9,7 @@ The prototype was developed using a Raspberry Pi, a PC with Arduino, a breadboar
 ![9cca83d6-ad20-432c-b61c-38a9ffedf2c4](https://github.com/user-attachments/assets/eab062f7-5ab7-47a7-b7a5-48c334cb63f3)
 ![e1a930de-2020-481b-a1eb-6c2c29c9f48b](https://github.com/user-attachments/assets/80f4c0da-54b2-43a2-9af0-f6a618a17![0b6cc9df-235a-4af5-91fb-6de97affee82](https://github.com/user-attachments/assets/fdc46f9b-51f3-4807-9255-fdf60b81d857)
 91c)![b56a52eb-9acf-4a9c-9a7b-8ea1fd7a12f7](https://github.com/user-attachments/assets/a6ab977b-b752-448e-aba3-78706c84f188)
+![43ae0c56-549e-4c83-893f-13e07f73e350](https://github.com/user-attachments/assets/09490b59-8334-4b02-9f56-8cbb1293756b)
 
 Despite encountering several technical challenges and not fully achieving the expected results, the course proved to be a valuable learning experience. Unlike previous courses on artificial intelligence that were more focused on theoretical reflection, this hands-on approach allowed for a clearer understanding of the potential applications of AI within the design process.
 
