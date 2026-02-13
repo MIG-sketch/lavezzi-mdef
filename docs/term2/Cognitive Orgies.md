@@ -1,7 +1,7 @@
 
 <a href="https://www.hackster.io/544136/dance-dance-carpet-255c9a" target="_blank" 
    style="padding:10px 15px; background-color:#000; color:white; text-decoration:none; border-radius:5px;">
-   Link per Hackster.io
+   Link to Hackster.io
 </a>
 
 
