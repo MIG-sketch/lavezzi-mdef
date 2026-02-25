@@ -1,19 +1,19 @@
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="mindmap1.png" style="width:100%">
+  <img src="Screenshot 2026-02-25 191022.png" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-  <img src="mindmap2.png" style="width:100%">
+  <img src="Screenshot 2026-02-25 191309.png" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-  <img src="mindmap3.png" style="width:100%">
+  <img src="Screenshot 2026-02-25 191322.png" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-  <img src="mindmap4.png" style="width:100%">
+  <img src="Screenshot 2026-02-25 191333.png" style="width:100%">
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
