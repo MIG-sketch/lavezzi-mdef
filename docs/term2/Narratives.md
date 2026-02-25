@@ -1,75 +1,33 @@
-<div class="slideshow-container">
+# SOUND TO ENERGY
 
-<div class="mySlides fade">
-  <img src="Screenshot 2026-02-25 191022.png" style="width:100%">
+---
+
+## Immersive Collective Experience
+
+<div style="margin: 60px 0;">
+  <img src="Screenshot 2026-02-25 191022.png" style="width:100%; border-radius:12px;">
 </div>
 
-<div class="mySlides fade">
-  <img src="Screenshot 2026-02-25 191309.png" style="width:100%">
+---
+
+## Translate the Music into Tangible Energy
+
+<div style="margin: 60px 0;">
+  <img src="Screenshot 2026-02-25 191309.png" style="width:100%; border-radius:12px;">
 </div>
 
-<div class="mySlides fade">
-  <img src="Screenshot 2026-02-25 191322.png" style="width:100%">
+---
+
+## Sonic Materiality
+
+<div style="margin: 60px 0;">
+  <img src="Screenshot 2026-02-25 191322.png" style="width:100%; border-radius:12px;">
 </div>
 
-<div class="mySlides fade">
-  <img src="Screenshot 2026-02-25 191333.png" style="width:100%">
+---
+
+## Flow · Dance · Spark · Connect · Repeat
+
+<div style="margin: 60px 0;">
+  <img src="Screenshot 2026-02-25 191333.png" style="width:100%; border-radius:12px;">
 </div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-
-<style>
-.slideshow-container {
-  max-width: 1100px;
-  margin: 40px auto;
-  position: relative;
-}
-
-.mySlides { display: none; }
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  padding: 16px;
-  color: white;
-  font-size: 20px;
-  background: rgba(0,0,0,0.5);
-  transform: translateY(-50%);
-}
-
-.next { right: 0; }
-
-.fade {
-  animation: fade 0.6s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-</style>
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function showSlides(n) {
-  let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) slideIndex = 1;
-  if (n < 1) slideIndex = slides.length;
-
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  slides[slideIndex-1].style.display = "block";
-}
-</script>
