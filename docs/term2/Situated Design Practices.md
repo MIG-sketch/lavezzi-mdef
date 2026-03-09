@@ -7,6 +7,6 @@ The workshop we took part in left a mark on me. It consisted of building a ceram
 
 After shaping the base, however, I had trouble making the holes correctly, which resulted in the instrument not working. I tried again and again, but in the end time ran out and I had to give up.
 
-I often realize that I know little—far too little—about many things, and despite that I tend to overestimate myself. I should push myself to go deeper into things and not stop at a superficial understanding: I need to really get my hands into the work and keep at it until I reach the goal.
+I often realize that I know little, far too little, about many things, and despite that I tend to overestimate myself. I should push myself to go deeper into things and not stop at a superficial understanding: I need to really get my hands into the work and keep at it until I reach the goal.
 
 The day was enjoyable. I came back home more aware, I ate a good paella, and I lost a lighter. It was worth it
