@@ -1,10 +1,7 @@
-
-<a href="https:https://www.hackster.io/sila-kara/stepscape-8791d6" target="_blank" 
+<a href="https://www.hackster.io/sila-kara/stepscape-8791d6" target="_blank" 
    style="padding:10px 15px; background-color:#000; color:white; text-decoration:none; border-radius:5px;">
    Link to Hackster.io
 </a>
-
-
 
 # Cognitive traces
 
