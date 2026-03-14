@@ -1,8 +1,7 @@
-<a href="https://www.hackster.io/sila-kara/stepscape-8791d6" target="_blank" 
-   style="padding:10px 15px; background-color:#000; color:white; text-decoration:none; border-radius:5px;">
-   Link to Hackster.io
+<a href="https://www.hackster.io/sila-kara/stepscape-8791d6" target="_blank"
+style="padding:10px 15px; background-color:#000; color:white; text-decoration:none; border-radius:5px;">
+Link to Hackster.io
 </a>
-
 # Cognitive traces
 
 I think the idea of layering the instruments of a song came on the second day. At the beginning, our goal was simply to generate an output, such as a sound or a color. However, during the process we realized that we could do something more interesting and complex. From that moment, we started thinking about working with different layers of the song’s instruments instead of limiting ourselves to a single output.
