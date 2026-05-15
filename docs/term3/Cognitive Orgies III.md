@@ -3,7 +3,7 @@ style="padding:10px 15px; background-color:#000; color:white; text-decoration:no
 Link to Hackster.io
 </a>
 
-# OuterBody
+# OuterBodi
 
 OuterBody is an interactive wearable system that explores the relationship between body movement, sound, and collective energy production. 
 
