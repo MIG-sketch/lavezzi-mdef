@@ -1,13 +1,11 @@
 :root {
   --red: #c40000;
   --dark-red: #7a0000;
-  --border-red: #ffcccc;
   --soft-red: #fff5f5;
+  --border-red: #ffcccc;
 }
 
-/* =========================
-GENERAL
-========================= */
+/* BACKGROUND */
 
 html,
 body,
@@ -18,36 +16,36 @@ body,
   color: var(--red) !important;
 }
 
-/* =========================
-HEADER
-========================= */
+/* HEADER */
 
 .md-header {
   background: white !important;
-  border-bottom: 1px solid var(--border-red) !important;
   box-shadow: none !important;
+  border-bottom: 1px solid var(--border-red);
 }
 
 .md-header * {
   color: var(--red) !important;
 }
 
-/* =========================
-SIDEBAR MENU
-========================= */
+/* TABS */
+
+.md-tabs {
+  background: white !important;
+  border-bottom: 1px solid var(--border-red);
+}
+
+.md-tabs * {
+  color: var(--red) !important;
+}
+
+.md-tabs__link--active {
+  font-weight: 800 !important;
+}
+
+/* SIDEBAR */
 
 .md-sidebar,
-.md-sidebar--primary,
-.md-sidebar--secondary {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-.md-sidebar {
-  background: white !important;
-}
-
 .md-sidebar__scrollwrap {
   background: white !important;
 }
@@ -57,86 +55,14 @@ SIDEBAR MENU
   color: var(--red) !important;
 }
 
-.md-nav__title {
-  color: var(--red) !important;
-  font-weight: 900 !important;
-}
-
-.md-nav__link {
-  color: var(--red) !important;
-}
-
-.md-nav__link:hover,
-.md-nav__link--active {
-  color: var(--dark-red) !important;
-  font-weight: 900 !important;
-}
-
-/* =========================
-REMOVE TOP MENU
-========================= */
-
-.md-tabs {
-  display: none !important;
-}
-
-/* =========================
-LAYOUT
-========================= */
-
-.md-grid {
-  max-width: 1450px !important;
-}
-
-.md-main__inner {
-  display: flex !important;
-}
-
-.md-content {
-  max-width: 100% !important;
-}
-
-.md-content__inner {
-  max-width: 1050px !important;
-  padding: 60px 50px !important;
-}
-
-/* =========================
-SEARCH
-========================= */
-
-.md-search__form {
-  background: white !important;
-  border: 1px solid var(--border-red) !important;
-  box-shadow: none !important;
-}
-
-.md-search__input,
-.md-search__icon {
-  color: var(--red) !important;
-}
-
-/* =========================
-TEXT
-========================= */
-
-.md-typeset {
-  font-size: 1.08rem !important;
-  line-height: 1.7 !important;
-}
+/* TITLES */
 
 .md-typeset h1 {
   color: var(--red) !important;
-
-  font-size: clamp(3.5rem, 8vw, 7rem) !important;
-
+  font-size: clamp(3.5rem, 9vw, 7rem) !important;
   line-height: 0.9 !important;
-
   letter-spacing: -4px !important;
-
   font-weight: 900 !important;
-
-  max-width: 100% !important;
 }
 
 .md-typeset h2,
@@ -145,82 +71,59 @@ TEXT
   font-weight: 900 !important;
 }
 
+/* TEXT */
+
 .md-typeset p,
 .md-typeset li {
   color: var(--dark-red) !important;
+  font-size: 1.05rem;
 }
 
-.md-typeset a {
-  color: var(--red) !important;
-}
-
-/* =========================
-HOME HERO
-========================= */
+/* HERO */
 
 .home-hero {
   min-height: 55vh;
-
   display: flex;
-
   flex-direction: column;
-
   justify-content: center;
-
   border-bottom: 1px solid var(--border-red);
-
   margin-bottom: 60px;
 }
 
+/* SMALL TITLE */
+
 .eyebrow {
   text-transform: uppercase;
-
   letter-spacing: 2px;
-
   font-size: 0.85rem;
-
   font-weight: 800;
-
   color: var(--red);
-
   margin-bottom: 20px;
 }
 
-/* =========================
-TERM CARDS
-========================= */
+/* GRID */
 
 .term-grid {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
   gap: 22px;
-
   margin-top: 40px;
-
   margin-bottom: 80px;
 }
 
+/* CARD */
+
 .term-card {
   border: 1px solid var(--border-red);
-
   border-radius: 28px;
-
   padding: 30px;
-
   min-height: 300px;
-
   background: white;
-
   color: var(--red) !important;
-
   text-decoration: none !important;
 
   display: flex;
-
   flex-direction: column;
-
   justify-content: space-between;
 
   transition: 0.25s ease;
@@ -228,60 +131,44 @@ TERM CARDS
 
 .term-card:hover {
   background: var(--soft-red);
-
   transform: translateY(-6px);
 }
 
+/* CARD TEXT */
+
 .term-card span {
   text-transform: uppercase;
-
   letter-spacing: 1.5px;
-
   font-size: 0.78rem;
-
   font-weight: 900;
 }
 
 .term-card h2 {
-  color: var(--red) !important;
-
-  font-size: 1.8rem !important;
-
-  margin: 24px 0 14px !important;
-
-  line-height: 1 !important;
+  font-size: 1.8rem;
+  margin: 24px 0 14px;
+  line-height: 1;
 }
 
 .term-card p {
   margin-bottom: 0;
 }
 
-/* =========================
-FOOTER
-========================= */
+/* FOOTER */
 
 .md-footer,
 .md-footer-meta {
   background: white !important;
-
   color: var(--red) !important;
-
-  border-top: 1px solid var(--border-red) !important;
+  border-top: 1px solid var(--border-red);
 }
 
 .md-footer * {
   color: var(--red) !important;
 }
 
-/* =========================
-MOBILE
-========================= */
+/* MOBILE */
 
 @media (max-width: 900px) {
-
-  .md-content__inner {
-    padding: 30px !important;
-  }
 
   .term-grid {
     grid-template-columns: 1fr;
@@ -289,7 +176,6 @@ MOBILE
 
   .md-typeset h1 {
     font-size: 3rem !important;
-
     letter-spacing: -2px !important;
   }
 
