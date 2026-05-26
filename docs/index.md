@@ -1,11 +1,49 @@
-<link rel="stylesheet" href="stylesheets/extra.css">
+<div class="home-hero">
 
-## HI THEREE!
-Welcome to my MDEF Diary  
-A personal space where I share my journey, my changes, reflections, and everything I’m learning along the way.  
-This diary will be constantly updated: a living space that evolves with me.  
-Through these pages, I’ll try to let you step into my mind, to share my vision and the way I see and interpret the world around me.  
-I hope that exploring it will help you understand my process, my choices.
+<span class="eyebrow">MDEF & Fab Lab Barcelona</span>
 
-## ENJOY
+# Francesco Mignogna
 
+This website is a living archive of my research, experiments, prototypes and reflections developed during the Master in Design for Emergent Futures.
+
+</div>
+
+<div class="term-grid">
+
+<a class="term-card" href="term1/01-Design%20studio%2001/">
+
+<span>Term 01</span>
+
+<h2>Foundations</h2>
+
+<p>
+Design Studio, Narratives, Future Makers, weak signals and early research explorations.
+</p>
+
+</a>
+
+<a class="term-card" href="term2/Extended%20Intelligences/">
+
+<span>Term 02</span>
+
+<h2>Development</h2>
+
+<p>
+Extended intelligences, situated practices, cognitive orgies and project development.
+</p>
+
+</a>
+
+<a class="term-card" href="term3/Cognitive%20Orgies%20III/">
+
+<span>Term 03</span>
+
+<h2>Emergence</h2>
+
+<p>
+Advanced prototypes, final developments and consolidation of the research direction.
+</p>
+
+</a>
+
+</div>
