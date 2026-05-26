@@ -5,118 +5,80 @@
   --border-red: #ffcccc;
 }
 
-/* =========================
-BACKGROUND
-========================= */
+/* FORCE FULL WIDTH */
+
+.md-grid {
+  max-width: none !important;
+}
+
+.md-main__inner {
+  display: block !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.md-content {
+  margin: 0 !important;
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.md-content__inner {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 80px !important;
+}
+
+/* REMOVE ALL SIDE MENUS */
+
+.md-sidebar,
+.md-sidebar--primary,
+.md-sidebar--secondary,
+.md-nav,
+.md-nav--primary,
+.md-nav--secondary {
+  display: none !important;
+  width: 0 !important;
+  max-width: 0 !important;
+  visibility: hidden !important;
+}
+
+/* COLORS */
 
 html,
 body,
 .md-main,
 .md-content,
 .md-content__inner {
-  background: white !important;
+  background: #ffffff !important;
   color: var(--red) !important;
 }
 
-/* =========================
-REMOVE SIDEBAR
-========================= */
-
-.md-sidebar,
-.md-sidebar--primary,
-.md-sidebar--secondary {
-  display: none !important;
-}
-
-/* =========================
-FULL WIDTH LAYOUT
-========================= */
-
-.md-main__inner {
-  margin: 0 !important;
-  max-width: 100% !important;
-}
-
-.md-content {
-  margin: 0 !important;
-  max-width: 100% !important;
-}
-
-.md-content__inner {
-  margin: 0 auto !important;
-  max-width: 1600px !important;
-
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-
-  width: 100% !important;
-}
-
-/* REMOVE EMPTY SIDEBAR SPACE */
-
-@media screen and (min-width: 76.25em) {
-
-  .md-grid {
-    max-width: 100% !important;
-  }
-
-  .md-content {
-    margin-left: 0 !important;
-  }
-
-}
-
-/* =========================
-HEADER
-========================= */
-
 .md-header {
-  background: white !important;
+  background: #ffffff !important;
+  color: var(--red) !important;
   box-shadow: none !important;
-  border-bottom: 1px solid var(--border-red);
+  border-bottom: 1px solid var(--border-red) !important;
 }
 
 .md-header * {
   color: var(--red) !important;
 }
 
-/* =========================
-TOP NAVIGATION
-========================= */
-
 .md-tabs {
-  background: white !important;
-  border-bottom: 1px solid var(--border-red);
-}
-
-.md-tabs__list {
-  justify-content: center !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid var(--border-red) !important;
 }
 
 .md-tabs * {
   color: var(--red) !important;
 }
 
-.md-tabs__item {
-  margin: 0 18px !important;
-}
-
-.md-tabs__link {
-  font-size: 0.95rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.3px !important;
-}
-
-.md-tabs__link--active {
-  font-weight: 900 !important;
-}
-
-/* =========================
-SEARCH BAR
-========================= */
+/* SEARCH */
 
 .md-search__form {
-  background: white !important;
+  background: #ffffff !important;
   border: 1px solid var(--border-red) !important;
   box-shadow: none !important;
 }
@@ -125,32 +87,23 @@ SEARCH BAR
   color: var(--red) !important;
 }
 
-.md-search__icon {
-  color: var(--red) !important;
-}
-
-/* =========================
-TEXT
-========================= */
+/* TEXT */
 
 .md-typeset {
+  max-width: none !important;
   font-size: 1.15rem !important;
-  line-height: 1.8 !important;
+  line-height: 1.7 !important;
 }
 
 .md-typeset h1 {
   color: var(--red) !important;
-
-  font-size: clamp(4rem, 10vw, 8rem) !important;
-
+  font-size: clamp(3.5rem, 9vw, 7rem) !important;
   line-height: 0.9 !important;
   letter-spacing: -4px !important;
-
   font-weight: 900 !important;
-
-  max-width: 1400px !important;
-
-  word-break: break-word;
+  max-width: 100% !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
 }
 
 .md-typeset h2,
@@ -168,108 +121,65 @@ TEXT
   color: var(--red) !important;
 }
 
-/* =========================
-HOME HERO
-========================= */
+/* HOME */
 
 .home-hero {
   min-height: 55vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   border-bottom: 1px solid var(--border-red);
-
   margin-bottom: 60px;
 }
 
-/* =========================
-SMALL TITLE
-========================= */
-
 .eyebrow {
   text-transform: uppercase;
-
   letter-spacing: 2px;
-
   font-size: 0.85rem;
-
   font-weight: 800;
-
   color: var(--red);
-
   margin-bottom: 20px;
 }
 
-/* =========================
-TERM GRID
-========================= */
+/* TERM CARDS */
 
 .term-grid {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
   gap: 22px;
-
   margin-top: 40px;
   margin-bottom: 80px;
 }
 
-/* =========================
-TERM CARD
-========================= */
-
 .term-card {
   border: 1px solid var(--border-red);
-
   border-radius: 28px;
-
   padding: 30px;
-
   min-height: 300px;
-
   background: white;
-
   color: var(--red) !important;
-
   text-decoration: none !important;
-
   display: flex;
-
   flex-direction: column;
-
   justify-content: space-between;
-
   transition: 0.25s ease;
 }
 
 .term-card:hover {
   background: var(--soft-red);
-
   transform: translateY(-6px);
 }
 
-/* =========================
-CARD TEXT
-========================= */
-
 .term-card span {
   text-transform: uppercase;
-
   letter-spacing: 1.5px;
-
   font-size: 0.78rem;
-
   font-weight: 900;
 }
 
 .term-card h2 {
   font-size: 1.8rem;
-
   margin: 24px 0 14px;
-
   line-height: 1;
 }
 
@@ -277,47 +187,32 @@ CARD TEXT
   margin-bottom: 0;
 }
 
-/* =========================
-FOOTER
-========================= */
+/* FOOTER */
 
 .md-footer,
 .md-footer-meta {
-  background: white !important;
-
+  background: #ffffff !important;
   color: var(--red) !important;
-
-  border-top: 1px solid var(--border-red);
+  border-top: 1px solid var(--border-red) !important;
 }
 
 .md-footer * {
   color: var(--red) !important;
 }
 
-/* =========================
-MOBILE
-========================= */
+/* MOBILE */
 
 @media (max-width: 900px) {
+  .md-content__inner {
+    padding: 30px !important;
+  }
 
   .term-grid {
     grid-template-columns: 1fr;
   }
 
-  .md-content__inner {
-
-    padding-left: 30px !important;
-
-    padding-right: 30px !important;
-
-  }
-
   .md-typeset h1 {
-
     font-size: 3rem !important;
-
     letter-spacing: -2px !important;
-
   }
-
 }
