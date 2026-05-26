@@ -1,28 +1,8 @@
-/* =========================
-RESET
-========================= */
-
-.md-sidebar {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+:root {
+  --red: #c40000;
 }
 
-.md-sidebar--primary {
-  display: block !important;
-}
-
-.md-sidebar--secondary {
-  display: none !important;
-}
-
-.md-tabs {
-  display: none !important;
-}
-
-/* =========================
-GENERAL
-========================= */
+/* COLORS */
 
 body,
 .md-main,
@@ -31,23 +11,14 @@ body,
   background: white !important;
 }
 
-/* =========================
-HEADER
-========================= */
-
 .md-header {
   background: white !important;
   box-shadow: none !important;
-  border-bottom: 1px solid #ffcccc !important;
 }
 
 .md-header * {
-  color: #c40000 !important;
+  color: var(--red) !important;
 }
-
-/* =========================
-SIDEBAR
-========================= */
 
 .md-sidebar,
 .md-sidebar__scrollwrap {
@@ -56,48 +27,31 @@ SIDEBAR
 
 .md-nav,
 .md-nav * {
-  color: #c40000 !important;
+  color: var(--red) !important;
 }
-
-.md-nav__title {
-  font-weight: 900 !important;
-}
-
-.md-nav__link:hover,
-.md-nav__link--active {
-  color: #7a0000 !important;
-}
-
-/* =========================
-SEARCH
-========================= */
 
 .md-search__form {
   background: white !important;
-  border: 1px solid #ffcccc !important;
 }
 
-.md-search__input,
-.md-search__icon {
-  color: #c40000 !important;
-}
-
-/* =========================
-TEXT
-========================= */
+/* TITLES */
 
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
-  color: #c40000 !important;
-  font-weight: 900 !important;
+  color: var(--red) !important;
 }
+
+/* BIG TITLES */
 
 .md-typeset h1 {
   font-size: clamp(3rem, 8vw, 7rem) !important;
   line-height: 0.9 !important;
   letter-spacing: -4px !important;
+  font-weight: 900 !important;
 }
+
+/* TEXT */
 
 .md-typeset p,
 .md-typeset li {
