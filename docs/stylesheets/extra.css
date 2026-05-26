@@ -1,1 +1,59 @@
-/* Reset custom edits */
+:root {
+  --red: #c40000;
+}
+
+/* COLORS */
+
+body,
+.md-main,
+.md-content,
+.md-content__inner {
+  background: white !important;
+}
+
+.md-header {
+  background: white !important;
+  box-shadow: none !important;
+}
+
+.md-header * {
+  color: var(--red) !important;
+}
+
+.md-sidebar,
+.md-sidebar__scrollwrap {
+  background: white !important;
+}
+
+.md-nav,
+.md-nav * {
+  color: var(--red) !important;
+}
+
+.md-search__form {
+  background: white !important;
+}
+
+/* TITLES */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: var(--red) !important;
+}
+
+/* BIG TITLES */
+
+.md-typeset h1 {
+  font-size: clamp(3rem, 8vw, 7rem) !important;
+  line-height: 0.9 !important;
+  letter-spacing: -4px !important;
+  font-weight: 900 !important;
+}
+
+/* TEXT */
+
+.md-typeset p,
+.md-typeset li {
+  color: #7a0000 !important;
+}
