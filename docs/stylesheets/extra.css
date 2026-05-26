@@ -2,9 +2,12 @@
   --red: #c40000;
   --dark-red: #7a0000;
   --border-red: #ffcccc;
+  --soft-red: #fff5f5;
 }
 
-/* GENERAL COLORS */
+/* =========================
+GENERAL COLORS
+========================= */
 
 html,
 body,
@@ -15,7 +18,9 @@ body,
   color: var(--red) !important;
 }
 
-/* HEADER */
+/* =========================
+HEADER
+========================= */
 
 .md-header {
   background: white !important;
@@ -28,15 +33,23 @@ body,
   color: var(--red) !important;
 }
 
-/* SIDEBAR BACK */
+/* =========================
+RESTORE LEFT SIDEBAR MENU
+========================= */
 
 .md-sidebar,
-.md-sidebar--primary {
+.md-sidebar--primary,
+.md-sidebar--secondary {
   display: block !important;
   visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .md-sidebar {
+  background: white !important;
+}
+
+.md-sidebar__scrollwrap {
   background: white !important;
 }
 
@@ -45,13 +58,34 @@ body,
   color: var(--red) !important;
 }
 
-.md-nav__link--active,
-.md-nav__link:hover {
-  color: var(--dark-red) !important;
-  font-weight: 800 !important;
+.md-nav__title {
+  color: var(--red) !important;
+  font-weight: 900 !important;
 }
 
-/* CONTENT LAYOUT WITH SIDEBAR */
+.md-nav__link {
+  color: var(--red) !important;
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: var(--dark-red) !important;
+  font-weight: 900 !important;
+}
+
+/* =========================
+REMOVE CUSTOM / TOP MENU
+========================= */
+
+.custom-menu,
+.custom-top-menu,
+.md-tabs {
+  display: none !important;
+}
+
+/* =========================
+LAYOUT WITH SIDEBAR
+========================= */
 
 .md-grid {
   max-width: 1400px !important;
@@ -59,6 +93,7 @@ body,
 
 .md-main__inner {
   display: flex !important;
+  margin-top: 0 !important;
 }
 
 .md-content {
@@ -70,11 +105,14 @@ body,
   padding: 60px 40px !important;
 }
 
-/* SEARCH */
+/* =========================
+SEARCH
+========================= */
 
 .md-search__form {
   background: white !important;
   border: 1px solid var(--border-red) !important;
+  box-shadow: none !important;
 }
 
 .md-search__input,
@@ -82,14 +120,22 @@ body,
   color: var(--red) !important;
 }
 
-/* TEXT */
+/* =========================
+TEXT
+========================= */
+
+.md-typeset {
+  font-size: 1.08rem !important;
+  line-height: 1.7 !important;
+}
 
 .md-typeset h1 {
   color: var(--red) !important;
-  font-size: clamp(3.5rem, 9vw, 7rem) !important;
+  font-size: clamp(3.5rem, 8vw, 7rem) !important;
   line-height: 0.9 !important;
   letter-spacing: -4px !important;
   font-weight: 900 !important;
+  max-width: 100% !important;
 }
 
 .md-typeset h2,
@@ -101,24 +147,105 @@ body,
 .md-typeset p,
 .md-typeset li {
   color: var(--dark-red) !important;
-  font-size: 1.05rem;
 }
 
 .md-typeset a {
   color: var(--red) !important;
 }
 
-/* HIDE TOP TABS */
+/* =========================
+HOME CARDS
+========================= */
 
-.md-tabs {
-  display: none !important;
+.home-hero {
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid var(--border-red);
+  margin-bottom: 60px;
 }
 
-/* MOBILE */
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--red);
+  margin-bottom: 20px;
+}
+
+.term-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.term-card {
+  border: 1px solid var(--border-red);
+  border-radius: 28px;
+  padding: 30px;
+  min-height: 300px;
+  background: white;
+  color: var(--red) !important;
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.25s ease;
+}
+
+.term-card:hover {
+  background: var(--soft-red);
+  transform: translateY(-6px);
+}
+
+.term-card span {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.term-card h2 {
+  color: var(--red) !important;
+  font-size: 1.8rem !important;
+  margin: 24px 0 14px !important;
+  line-height: 1 !important;
+}
+
+.term-card p {
+  margin-bottom: 0;
+}
+
+/* =========================
+FOOTER
+========================= */
+
+.md-footer,
+.md-footer-meta {
+  background: white !important;
+  color: var(--red) !important;
+  border-top: 1px solid var(--border-red) !important;
+}
+
+.md-footer * {
+  color: var(--red) !important;
+}
+
+/* =========================
+MOBILE
+========================= */
 
 @media (max-width: 900px) {
   .md-content__inner {
     padding: 30px !important;
+  }
+
+  .term-grid {
+    grid-template-columns: 1fr;
   }
 
   .md-typeset h1 {
