@@ -71,7 +71,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.instant
-    - navigation.expand
 
 # ===============================
 # PLUGIN
