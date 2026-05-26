@@ -1,82 +1,97 @@
-:root > * {
-    --md-footer-bg-color: #607d8b; /* blue-grey footer */
-    --md-footer-fg-color: #ffffff; /* testo bianco footer */
-    --md-footer-bg-color--dark: #607d8b;
-    --md-footer-fg-color--lighter: #ffffff;
-    --md-footer-fg-color--light: #ffffff;
-    --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
-    --mdc-typography-font-family: 'Be Vietnam', sans-serif;
-    --md-typeset-a-color: #00ffe0; /* colore link personalizzato */
+:root {
+  --md-primary-fg-color: #ffffff;
+  --md-primary-bg-color: #c40000;
+  --md-accent-fg-color: #c40000;
+
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #c40000;
+  --md-typeset-color: #c40000;
+  --md-typeset-a-color: #c40000;
 }
 
-/* Nasconde la scrollbar */
-.hide-scroll-bar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-.hide-scroll-bar::-webkit-scrollbar {
-    display: none;
+body,
+.md-main,
+.md-content {
+  background: #ffffff;
+  color: #c40000;
 }
 
-/* Bottone primario */
-.md-typeset .md-button--primary {
-    border-width: 1px;
-    border-color: rgb(219, 219, 219);
-    border-radius: 4px;
-    color: #ffffff; /* testo bottone */
-    background-color: #455a64; /* blue-grey scuro bottone */
+.md-header {
+  background-color: #ffffff;
+  color: #c40000;
+  border-bottom: 1px solid #ffcccc;
+  box-shadow: none;
 }
 
-/* Contenuto delle card */
-.cardContent {
-    padding: 16px;
-    font-size: 16px;
-    color: #ffffff; /* testo bianco nelle card */
-    background-color: #607d8b; /* sfondo card blue-grey */
-    border-radius: 6px;
+.md-header__title,
+.md-header__button,
+.md-header__topic,
+.md-header__source {
+  color: #c40000;
 }
 
-/* Titoli h2 */
-.md-typeset h2 {
-    font-weight: 500;
-    color: #ffffff; /* colore titoli */
+.md-tabs {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffcccc;
 }
 
-/* Body2 */
-.mdc-typography--body2 {
-    font-weight: 300;
-    font-size: 14px;
-    color: #ffffff;
+.md-tabs__link {
+  color: #c40000;
+  opacity: 1;
 }
 
-/* Sfondo principale della pagina */
-.md-main, .md-content {
-    background-color: #607d8b !important; /* blue-grey */
-    color: #ffffff !important; /* testo bianco */
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: #7a0000;
+  font-weight: 700;
 }
 
-/* Footer */
-.md-footer {
-    background-color: #607d8b !important;
-    color: #ffffff !important;
-}
-/* Titolo ENJOY centrato con fade-in */
-.title-enjoy {
-    text-align: center;
-    color: #ffffff; /* titolo bianco */
-    font-weight: 600;
-    font-size: 3rem;
-    letter-spacing: 2px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-
-    /* Fade-in */
-    opacity: 0;
-    animation: fadeInTitle 2s ease-in forwards;
+.md-nav__title,
+.md-nav__link {
+  color: #c40000;
 }
 
-@keyframes fadeInTitle {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: #7a0000;
+  font-weight: 700;
+}
+
+.md-typeset h1 {
+  color: #c40000;
+  font-weight: 900;
+  letter-spacing: -2px;
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 0.95;
+}
+
+.md-typeset h2,
+.md-typeset h3 {
+  color: #c40000;
+  font-weight: 800;
+}
+
+.md-typeset p,
+.md-typeset li {
+  color: #7a0000;
+}
+
+.md-typeset a {
+  color: #c40000;
+}
+
+.md-search__form {
+  background-color: #fff5f5;
+  border: 1px solid #ffcccc;
+}
+
+.md-search__input {
+  color: #c40000;
+}
+
+.md-footer,
+.md-footer-meta {
+  background-color: #ffffff;
+  color: #c40000;
+  border-top: 1px solid #ffcccc;
 }
