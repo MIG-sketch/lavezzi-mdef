@@ -15,7 +15,7 @@ nav:
       - Narratives - Digital Gardening: term1/Narratives - Digital Gardening.md
       - Fundamental for Future Makers: term1/Fundamental for Future Makers.md
       - Living with your own ideas: term1/Reflections 1 - Living with your own ideas.md
-      - Unpacking tech systems & the machine paradox: term1/unpacking tech systems & the machine paradox.md
+      - Unpacking tech systems: term1/unpacking tech systems & the machine paradox.md
       - Atlas of Weak Signal: term1/Atlas of Weak Signal.md
   - Term 2:
       - Extended Intelligences: term2/Extended Intelligences.md
@@ -32,14 +32,10 @@ theme:
     - scheme: default
       primary: red
       accent: red
-
   font:
     text: "Arial"
     code: "Courier New"
-
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.top
     - navigation.instant
 
@@ -53,3 +49,6 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/menu.js
