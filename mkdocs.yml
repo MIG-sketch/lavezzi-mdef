@@ -1,6 +1,3 @@
-# ===============================
-# CONFIGURAZIONE PRINCIPALE DEL SITO
-# ===============================
 site_name: "Francesco Mignogna"
 site_description: "MDEF & Fab Lab Barcelona"
 site_author: "Francesco Mignogna"
@@ -10,13 +7,9 @@ repo_name: "mig-sketch / lavezzi-mdef"
 site_url: "https://mig-sketch.github.io/lavezzi-mdef/"
 repo_url: "https://github.com/mig-sketch/lavezzi-mdef"
 
-# ===============================
-# NAVIGAZIONE
-# ===============================
 nav:
   - Home: index.md
   - About: about/me.md
-
   - Term 1:
       - Design Studio 01: term1/01-Design studio 01.md
       - Narratives - Digital Gardening: term1/Narratives - Digital Gardening.md
@@ -24,39 +17,17 @@ nav:
       - Living with your own ideas: term1/Reflections 1 - Living with your own ideas.md
       - Unpacking tech systems & the machine paradox: term1/unpacking tech systems & the machine paradox.md
       - Atlas of Weak Signal: term1/Atlas of Weak Signal.md
-
   - Term 2:
       - Extended Intelligences: term2/Extended Intelligences.md
       - Cognitive Orgies: term2/Cognitive Orgies.md
       - Narratives: term2/Narratives.md
       - Situated Design Practices: term2/Situated Design Practices.md
       - Cognitive Orgies II: term2/Cognitive Orgies II.md
-
   - Term 3:
       - Cognitive Orgies III: term3/Cognitive Orgies III.md
 
-# ===============================
-# EXTRA
-# ===============================
-extra:
-  homepage: "https://mig-sketch.github.io/lavezzi-mdef/"
-
-  social:
-    - icon: fontawesome/brands/instagram
-      link: "https://instagram.com/"
-
-    - icon: fontawesome/brands/linkedin
-      link: "https://www.linkedin.com/in/"
-
-    - icon: fontawesome/brands/github
-      link: "https://github.com/mig-sketch"
-
-# ===============================
-# TEMA
-# ===============================
 theme:
   name: material
-
   palette:
     - scheme: default
       primary: red
@@ -72,22 +43,13 @@ theme:
     - navigation.top
     - navigation.instant
 
-# ===============================
-# PLUGIN
-# ===============================
 plugins:
   - search
 
-# ===============================
-# ESTENSIONI MARKDOWN
-# ===============================
 markdown_extensions:
   - extra
   - md_in_html
   - attr_list
 
-# ===============================
-# CSS EXTRA
-# ===============================
 extra_css:
   - stylesheets/extra.css
