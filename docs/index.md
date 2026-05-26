@@ -1,3 +1,3 @@
 # Home
 
-Welcome to my MDEF documentation website.
+Welcome to my MDEF website.
