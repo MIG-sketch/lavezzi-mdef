@@ -1,40 +1,41 @@
 site_name: "Francesco Mignogna"
 site_description: "MDEF & Fab Lab Barcelona"
 site_author: "Francesco Mignogna"
-copyright: "© 2026 Francesco Mignogna"
-
-repo_name: "mig-sketch / lavezzi-mdef"
-site_url: "https://mig-sketch.github.io/lavezzi-mdef/"
-repo_url: "https://github.com/mig-sketch/lavezzi-mdef"
 
 nav:
   - Home: index.md
   - About: about/me.md
+
   - Term 1:
       - Design Studio 01: term1/01-Design studio 01.md
-      - Narratives - Digital Gardening: term1/Narratives - Digital Gardening.md
-      - Fundamental for Future Makers: term1/Fundamental for Future Makers.md
-      - Living with your own ideas: term1/Reflections 1 - Living with your own ideas.md
-      - Unpacking tech systems: term1/unpacking tech systems & the machine paradox.md
+      - Narratives: term1/Narratives - Digital Gardening.md
+      - Future Makers: term1/Fundamental for Future Makers.md
+      - Reflections: term1/Reflections 1 - Living with your own ideas.md
+      - Unpacking Tech Systems: term1/unpacking tech systems & the machine paradox.md
       - Atlas of Weak Signal: term1/Atlas of Weak Signal.md
+
   - Term 2:
       - Extended Intelligences: term2/Extended Intelligences.md
       - Cognitive Orgies: term2/Cognitive Orgies.md
       - Narratives: term2/Narratives.md
       - Situated Design Practices: term2/Situated Design Practices.md
       - Cognitive Orgies II: term2/Cognitive Orgies II.md
+
   - Term 3:
       - Cognitive Orgies III: term3/Cognitive Orgies III.md
 
 theme:
   name: material
+
   palette:
     - scheme: default
       primary: red
       accent: red
+
   font:
-    text: "Arial"
-    code: "Courier New"
+    text: Arial
+    code: Courier New
+
   features:
     - navigation.expand
     - navigation.top
