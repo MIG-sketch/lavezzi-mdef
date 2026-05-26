@@ -36,6 +36,7 @@ theme:
     text: "Arial"
     code: "Courier New"
   features:
+    - navigation.expand
     - navigation.top
     - navigation.instant
 
@@ -49,6 +50,3 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
-
-extra_javascript:
-  - javascripts/menu.js
