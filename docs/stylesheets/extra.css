@@ -5,6 +5,15 @@
   --border-red: #ffcccc;
 }
 
+/* REMOVE MKDOCS SIDE MENU */
+
+.md-sidebar,
+.md-sidebar--primary,
+.md-sidebar--secondary,
+.md-tabs {
+  display: none !important;
+}
+
 /* FULL WIDTH */
 
 .md-grid {
@@ -30,27 +39,10 @@
   padding: 70px 80px !important;
 }
 
-/* REMOVE LEFT SIDEBAR */
-
-.md-sidebar,
-.md-sidebar--primary,
-.md-sidebar--secondary {
-  display: none !important;
-}
-
-/* COLORS */
-
-html,
-body,
-.md-main,
-.md-content,
-.md-content__inner {
-  background: #ffffff !important;
-  color: var(--red) !important;
-}
+/* HEADER */
 
 .md-header {
-  background: #ffffff !important;
+  background: white !important;
   color: var(--red) !important;
   box-shadow: none !important;
   border-bottom: 1px solid var(--border-red) !important;
@@ -60,50 +52,39 @@ body,
   color: var(--red) !important;
 }
 
-/* TOP MENU LIKE EXAMPLE */
+/* CUSTOM MENU */
 
-.md-tabs {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  background: #ffffff !important;
-  border-bottom: 1px solid var(--border-red) !important;
+.custom-top-menu {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid var(--border-red);
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  padding: 18px 20px;
+  position: sticky;
+  top: 64px;
+  z-index: 50;
 }
 
-.md-tabs__inner {
-  max-width: 100% !important;
+.custom-top-menu a {
+  color: var(--red);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
 }
 
-.md-tabs__list {
-  display: flex !important;
-  justify-content: center !important;
-  gap: 34px !important;
-  width: 100% !important;
-}
-
-.md-tabs__item {
-  display: block !important;
-  margin: 0 !important;
-}
-
-.md-tabs__link {
-  color: var(--red) !important;
-  font-size: 0.9rem !important;
-  font-weight: 800 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.5px !important;
-  opacity: 1 !important;
-}
-
-.md-tabs__link:hover,
-.md-tabs__link--active {
-  color: var(--dark-red) !important;
+.custom-top-menu a:hover {
+  color: var(--dark-red);
+  border-bottom: 2px solid var(--red);
 }
 
 /* SEARCH */
 
 .md-search__form {
-  background: #ffffff !important;
+  background: white !important;
   border: 1px solid var(--border-red) !important;
   box-shadow: none !important;
 }
@@ -114,6 +95,15 @@ body,
 }
 
 /* TEXT */
+
+html,
+body,
+.md-main,
+.md-content,
+.md-content__inner {
+  background: white !important;
+  color: var(--red) !important;
+}
 
 .md-typeset {
   max-width: none !important;
@@ -145,91 +135,24 @@ body,
   color: var(--red) !important;
 }
 
-/* HOME HERO */
-
-.home-hero {
-  min-height: 55vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-bottom: 1px solid var(--border-red);
-  margin-bottom: 60px;
-}
-
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.85rem;
-  font-weight: 800;
-  color: var(--red);
-  margin-bottom: 20px;
-}
-
-/* TERM CARDS */
-
-.term-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
-  margin-top: 40px;
-  margin-bottom: 80px;
-}
-
-.term-card {
-  border: 1px solid var(--border-red);
-  border-radius: 28px;
-  padding: 30px;
-  min-height: 300px;
-  background: white;
-  color: var(--red) !important;
-  text-decoration: none !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: 0.25s ease;
-}
-
-.term-card:hover {
-  background: var(--soft-red);
-  transform: translateY(-6px);
-}
-
-.term-card span {
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-size: 0.78rem;
-  font-weight: 900;
-}
-
-.term-card h2 {
-  font-size: 1.8rem;
-  margin: 24px 0 14px;
-  line-height: 1;
-}
-
-.term-card p {
-  margin-bottom: 0;
-}
-
 /* MOBILE */
 
 @media (max-width: 900px) {
+  .custom-top-menu {
+    justify-content: flex-start;
+    overflow-x: auto;
+    gap: 24px;
+    top: 56px;
+  }
+
   .md-content__inner {
     padding: 30px !important;
-  }
-
-  .md-tabs__list {
-    justify-content: flex-start !important;
-    overflow-x: auto !important;
-    gap: 20px !important;
-  }
-
-  .term-grid {
-    grid-template-columns: 1fr;
   }
 
   .md-typeset h1 {
     font-size: 3rem !important;
     letter-spacing: -2px !important;
+  }
+}
   }
 }
