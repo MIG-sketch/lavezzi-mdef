@@ -1,10 +1,11 @@
 # ===============================
 # CONFIGURAZIONE PRINCIPALE DEL SITO
 # ===============================
-site_name: "Francesco Mignogna - MDEF & Fab Lab Barcelona"
-site_description: "Master in Design for Emergent Futures"
+site_name: "Francesco Mignogna"
+site_description: "MDEF & Fab Lab Barcelona"
 site_author: "Francesco Mignogna"
-copyright: "Copyleft 2026 Francesco Mignogna"
+copyright: "© 2026 Francesco Mignogna"
+
 repo_name: "mig-sketch / lavezzi-mdef"
 site_url: "https://mig-sketch.github.io/lavezzi-mdef/"
 repo_url: "https://github.com/mig-sketch/lavezzi-mdef"
@@ -39,11 +40,14 @@ nav:
 # ===============================
 extra:
   homepage: "https://mig-sketch.github.io/lavezzi-mdef/"
+
   social:
     - icon: fontawesome/brands/instagram
       link: "https://instagram.com/"
+
     - icon: fontawesome/brands/linkedin
       link: "https://www.linkedin.com/in/"
+
     - icon: fontawesome/brands/github
       link: "https://github.com/mig-sketch"
 
@@ -52,72 +56,39 @@ extra:
 # ===============================
 theme:
   name: material
-  logo: "assets/docs/images/images.jpg"
-  favicon: "images/favicon.svg"
 
   palette:
     - scheme: default
-      primary: white
+      primary: red
       accent: red
 
   font:
-    text: "Be Vietnam"
-    code: "Cutive Mono"
+    text: "Arial"
+    code: "Courier New"
 
   features:
-    - navigation.expand
-    - navigation.indexes
-    - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-    - navigation.tracking
+    - navigation.instant
+    - navigation.expand
 
 # ===============================
 # PLUGIN
 # ===============================
 plugins:
   - search
-  - git-revision-date-localized:
-      fallback_to_build_date: true
 
 # ===============================
 # ESTENSIONI MARKDOWN
 # ===============================
 markdown_extensions:
   - extra
-  - smarty
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - codehilite:
-      guess_lang: false
-  - toc:
-      permalink: true
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - md_in_html
-  - footnotes
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      base_path: "docs"
-  - pymdownx.tilde
   - attr_list
-  - pymdownx.tabbed
 
 # ===============================
 # CSS EXTRA
 # ===============================
 extra_css:
-  - "stylesheets/extra.css"
+  - stylesheets/extra.css
