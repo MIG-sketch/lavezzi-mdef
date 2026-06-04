@@ -15,7 +15,7 @@ repo_url: "https://github.com/mig-sketch/lavezzi-mdef"
 # ===============================
 nav:
   - Home: index.md
-  - About: about/me.md
+ 
 
   - Term 1:
       - Design Studio 01: term1/01-Design studio 01.md
