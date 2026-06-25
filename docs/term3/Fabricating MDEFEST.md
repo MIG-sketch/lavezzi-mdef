@@ -27,3 +27,6 @@ https://github.com/user-attachments/assets/412d8c79-5f23-4e54-821f-912df6937431
 
 During the development of the prototype, I carried out several iterations to test the number of coil turns, the dimensions of the components, the positioning of the generators, and the routing of the wires within the garment. Through these tests, I progressively improved the reliability of the system and its integration into the wearable, seeking a balance between technical functionality, comfort, and freedom of movement. The final result is a device that makes the relationship between body movement and energy tangible and visible, transforming the body itself into a source of energy production
 
+# final prototype 
+<img width="675" height="867" alt="image" src="https://github.com/user-attachments/assets/85be342a-2f2d-4469-977a-91849d2ef7bc" />
+
