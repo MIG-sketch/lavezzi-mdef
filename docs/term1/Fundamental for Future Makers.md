@@ -5,7 +5,6 @@ LINK TO TEAM PROJECT
 
 [LINK](https://docs.google.com/document/d/1Ekf4YDOEidUIlHvt0ZlgP-VfHxmpWO2GsIJS5tF95CY/edit?tab=t.0)
 
-
   <div id="project10-page" class="page hidden">
     <p class="page-title">Fundamentals for Future Makers</p>
     <div class="three-col">
