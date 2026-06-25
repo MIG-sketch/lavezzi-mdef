@@ -1,5 +1,4 @@
 # Fabricating MDEFEST
-
 To build the device, I created four electromagnetic generators, each consisting of a copper coil and a moving magnet inside it. To make each coil, I wrapped copper wire approximately 1, 000 times around a tube, creating a coil capable of generating electrical energy when crossed by the movement of the magnet. The four coils were integrated into the sleeves of a T-shirt, two on each arm, to take advantage of the natural movements of the body during dancing and physical activity.
 
 
