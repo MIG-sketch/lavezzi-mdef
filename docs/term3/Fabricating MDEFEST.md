@@ -4,7 +4,7 @@ To build the device, I created four electromagnetic generators, each consisting 
 
 
 
-https://github.com/user-attachments/assets/7fec9411-d361-4425-ac30-1621f2386253
+https://youtube.com/shorts/RT469hvzYtU?feature=share
 
 
 
