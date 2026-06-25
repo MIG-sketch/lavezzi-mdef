@@ -3,17 +3,7 @@
 To build the device, I created four electromagnetic generators, each consisting of a copper coil and a moving magnet inside it. To make each coil, I wrapped copper wire approximately 1, 000 times around a tube, creating a coil capable of generating electrical energy when crossed by the movement of the magnet. The four coils were integrated into the sleeves of a T-shirt, two on each arm, to take advantage of the natural movements of the body during dancing and physical activity.
 
 
-<section style="display:flex; justify-content:center; margin:40px 0;">
-  <iframe
-    width="315"
-    height="560"
-    src="https://www.youtube.com/embed/RT469hvzYtU"
-    title="Wake Up the Room"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</section>
+<iframe width="360" height="640" src="https://www.youtube.com/embed/RT469hvzYtU" title="YouTube Short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <img width="1191" height="670" alt="image" src="https://github.com/user-attachments/assets/f72b67ab-abb8-488f-a43f-df1583f7e414" />
