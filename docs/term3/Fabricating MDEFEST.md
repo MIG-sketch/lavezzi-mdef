@@ -11,7 +11,7 @@ As the user moves, the magnets slide inside the tubes, passing through the coils
 
 
 
-https://github.com/user-attachments/assets/b9e8f5cd-7fb1-4c7b-89ea-2468154a3a75
+<iframe width="360" height="640" src="https://www.youtube.com/embed/gyFRrjv7ZW0" title="YouTube Short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <img width="1107" height="713" alt="image" src="https://github.com/user-attachments/assets/81c2c40b-28a4-4b80-886b-8e8b49a29027" />
@@ -22,7 +22,7 @@ This distributed system transforms body movement into electrical energy while re
 
 
 
-https://github.com/user-attachments/assets/412d8c79-5f23-4e54-821f-912df6937431
+<iframe width="360" height="640" src="https://www.youtube.com/embed/wuZ9lUQS3Z4" title="YouTube Short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 During the development of the prototype, I carried out several iterations to test the number of coil turns, the dimensions of the components, the positioning of the generators, and the routing of the wires within the garment. Through these tests, I progressively improved the reliability of the system and its integration into the wearable, seeking a balance between technical functionality, comfort, and freedom of movement. The final result is a device that makes the relationship between body movement and energy tangible and visible, transforming the body itself into a source of energy production
 
