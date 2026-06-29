@@ -1,4 +1,4 @@
-# FABRICATION PROCESS GIFS
+# FABRICATION PROCESS GIFS 
 
 <div class="carousel">
   <input type="radio" name="gif-slides" id="g1" checked>
