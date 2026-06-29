@@ -1,4 +1,4 @@
-# FABRICATION PROCESS GIFS
+# FABRICATION PROCESS 
 
 <div class="carousel">
   <input type="radio" name="gif-slides" id="g1" checked>
@@ -30,8 +30,6 @@
   </div>
 </div>
 
-
-# FABRICATION PROCESS IMAGES
 
 <div class="carousel">
   <input type="radio" name="image-slides" id="i1" checked>
