@@ -16,7 +16,9 @@ repo_url: "https://github.com/mig-sketch/lavezzi-mdef"
 nav:
   - Home: index.md
   - Design Studio: Design Studio.md
- 
+      - Term I: Term I.md
+      - Term II: Term II.md
+      - Term III: Term III.md
 
   - Term 1:
       - Fundamental for Future Makers: term1/Fundamental for Future Makers.md
