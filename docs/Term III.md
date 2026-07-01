@@ -19,7 +19,6 @@ The electricity produced by each module is transmitted through wires running alo
 
 The electrical energy is then stabilized and stored in a rechargeable battery, allowing it to power small electronic devices or to be used as an energy reserve. The entire system is completely passive, requiring no external power source and generating electricity solely from the natural movements of the body while dancing.
 
-Rather than maximizing the amount of electricity produced, the prototype aims to make a normally invisible and dissipated form of energy visible and measurable. By transforming dance into a source of electrical power, the project encourages reflection on the relationship between the body, technology, energy production, and the social value of collective participation.
 
 <iframe width="360" height="640" src="https://www.youtube.com/embed/RT469hvzYtU" title="YouTube Short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -30,3 +29,4 @@ Rather than maximizing the amount of electricity produced, the prototype aims to
 
 
 <img width="1107" height="713" alt="image" src="https://github.com/user-attachments/assets/81c2c40b-28a4-4b80-886b-8e8b49a29027" />
+Rather than maximizing the amount of electricity produced, the prototype aims to make a normally invisible and dissipated form of energy visible and measurable. By transforming dance into a source of electrical power, the project encourages reflection on the relationship between the body, technology, energy production, and the social value of collective participation.
