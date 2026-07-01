@@ -1,7 +1,16 @@
 # Context
 <img width="965" height="440" alt="image" src="https://github.com/user-attachments/assets/7c14d19b-fd37-479e-a61f-080a46d9045e" />
 
-https://youtube.com/shorts/bcoP8RSMP6w
+<div style="display: flex; justify-content: center; margin: 40px 0;">
+  <iframe
+    src="https://player.vimeo.com/video/1206171656?h=eabd49d4f1"
+    width="800"
+    height="450"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
 
 # action 01
 The project is based on the idea that emotional perception is not a purely subjective or spontaneous phenomenon, but the result of sensory, cultural, and acoustic structures that often operate invisibly in everyday life. Through the analysis of sound—both musical and linguistic—the work connects objective data, such as audio frequencies, with dimensions that seem intimate and personal, such as color, emotion, and mood.
@@ -28,7 +37,6 @@ Overall, the project functions as an investigation into how sound, color, and la
 <img width="1565" height="1005" alt="ChatGPT Image 1 lug 2026, 16_14_12" src="https://github.com/user-attachments/assets/3e28f23a-2b1a-4e0f-9d38-2ccace7d0bae" />
 
 # action 02
-
 this action is an immersive installation that explores the gap between body and mind. Today, we constantly receive mixed signals: calm images paired with stressful sounds, relaxing spaces that still create anxiety, environments that tell us to slow down while pushing us to perform.
 The installation is made of rooms where sound and image do not match. In one space, low frequencies slow the body down while fast images overload the mind. In another, higher frequencies create physical tension while the visuals show peaceful landscapes. This contrast creates confusion and makes it hard to trust a single sense.
 The work questions how much we can rely on our perception and shows how space, sound, light, and images can influence emotions and behavior. Synesthesia here is not harmony, but distortion.
