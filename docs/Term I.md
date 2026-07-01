@@ -26,8 +26,10 @@ Overall, the project functions as an investigation into how sound, color, and la
 | **B**  | Pink / Rose‑Magenta      | Passion      |
 
 <img width="1565" height="1005" alt="ChatGPT Image 1 lug 2026, 16_14_12" src="https://github.com/user-attachments/assets/3e28f23a-2b1a-4e0f-9d38-2ccace7d0bae" />
+
 # action 02
- this action is an immersive installation that explores the gap between body and mind. Today, we constantly receive mixed signals: calm images paired with stressful sounds, relaxing spaces that still create anxiety, environments that tell us to slow down while pushing us to perform.
+
+this action is an immersive installation that explores the gap between body and mind. Today, we constantly receive mixed signals: calm images paired with stressful sounds, relaxing spaces that still create anxiety, environments that tell us to slow down while pushing us to perform.
 The installation is made of rooms where sound and image do not match. In one space, low frequencies slow the body down while fast images overload the mind. In another, higher frequencies create physical tension while the visuals show peaceful landscapes. This contrast creates confusion and makes it hard to trust a single sense.
 The work questions how much we can rely on our perception and shows how space, sound, light, and images can influence emotions and behavior. Synesthesia here is not harmony, but distortion.
 The experience ends with an “impossible meditation”: a moment where it is not possible to fully relax or fully focus. Participants are left with a simple but uncomfortable question: should we trust our body, or the environment around us?
