@@ -17,52 +17,47 @@
 # problematize objects
 <style>
 .carousel {
+  width: 100%;
   max-width: 1000px;
   margin: 40px auto;
   position: relative;
 }
 
-.carousel-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.carousel-slide {
+.carousel img {
+  width: 100%;
   display: none;
+  border-radius: 10px;
 }
 
-.carousel-slide.active {
+.carousel img.active {
   display: block;
 }
 
-.carousel-slide img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.carousel-btn {
+.prev, .next {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
+  padding: 14px 18px;
   color: white;
+  background: rgba(0,0,0,0.5);
   border: none;
-  padding: 12px 16px;
-  cursor: pointer;
   font-size: 24px;
   border-radius: 50%;
-}
-
-.carousel-btn:hover {
-  background: rgba(0,0,0,0.8);
+  user-select: none;
 }
 
 .prev {
-  left: 10px;
+  left: 15px;
 }
 
 .next {
-  right: 10px;
+  right: 15px;
+}
+
+.prev:hover,
+.next:hover {
+  background: rgba(0,0,0,0.8);
 }
 
 .dots {
@@ -74,9 +69,9 @@
   height: 12px;
   width: 12px;
   margin: 0 5px;
+  display: inline-block;
   background: #bbb;
   border-radius: 50%;
-  display: inline-block;
   cursor: pointer;
 }
 
@@ -87,50 +82,42 @@
 
 <div class="carousel">
 
-  <div class="carousel-container">
+    <img class="active" src="./images/image1.png" alt="Image 1">
+    <img src="./images/image2.png" alt="Image 2">
 
-    <div class="carousel-slide active">
-      <img src="images/image1.png" alt="Image 1">
-    </div>
-
-    <div class="carousel-slide">
-      <img src="images/image2.png" alt="Image 2">
-    </div>
-
-    <button class="carousel-btn prev">&#10094;</button>
-    <button class="carousel-btn next">&#10095;</button>
-
-  </div>
-
-  <div class="dots">
-    <span class="dot active"></span>
-    <span class="dot"></span>
-  </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
 
 </div>
 
-<script>
-const slides = document.querySelectorAll('.carousel-slide');
-const dots = document.querySelectorAll('.dot');
-let current = 0;
+<div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+</div>
 
-function showSlide(index){
-    slides.forEach((slide,i)=>{
-        slide.classList.toggle('active', i===index);
-        dots[i].classList.toggle('active', i===index);
+<script>
+const images = document.querySelectorAll('.carousel img');
+const dots = document.querySelectorAll('.dot');
+
+let index = 0;
+
+function showImage(i){
+    images.forEach((img,n)=>{
+        img.classList.toggle('active', n===i);
+        dots[n].classList.toggle('active', n===i);
     });
-    current=index;
+    index = i;
 }
 
-document.querySelector('.next').onclick=()=>{
-    showSlide((current+1)%slides.length);
-};
+document.querySelector('.next').addEventListener('click', ()=>{
+    showImage((index+1)%images.length);
+});
 
-document.querySelector('.prev').onclick=()=>{
-    showSlide((current-1+slides.length)%slides.length);
-};
+document.querySelector('.prev').addEventListener('click', ()=>{
+    showImage((index-1+images.length)%images.length);
+});
 
 dots.forEach((dot,i)=>{
-    dot.onclick=()=>showSlide(i);
+    dot.addEventListener('click', ()=>showImage(i));
 });
 </script>
